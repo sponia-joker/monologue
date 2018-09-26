@@ -1,0 +1,60 @@
+page {
+  font-family: PingFangSC-Regular, sans-serif;
+  background-color: #efefef;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+swiper {
+  width: 600rpx;
+  height: 1000rpx;
+}
+
+.card {
+  width: 600rpx;
+  height: 1000rpx;
+  background-color: #fff;
+  box-shadow: 0 0 4px 0 rgba(18, 18, 19, 0.2);
+  border-radius: 20rpx;
+  overflow: hidden;
+}
+
+.card image {
+  width: 100%;
+  height: 354rpx;
+}
+
+.card .name {
+  font-size: 44rpx;
+  color: #524d4d;
+  letter-spacing: 4rpx;
+  padding: 0 50rpx;
+  margin-top: 50rpx;
+  line-height: 60rpx;
+}
+
+.card .author {
+  font-size: 28rpx;
+  color: rgba(46, 44, 44, 0.55);
+  letter-spacing: 3rpx;
+  padding: 0 50rpx;
+  margin-bottom: 40rpx;
+  line-height: 40rpx;
+}
+
+.card .text {
+  font-size: 28rpx;
+  color: #000;
+  padding: 0 50rpx;
+  line-height: 34rpx;
+  letter-spacing: 2rpx;
+}

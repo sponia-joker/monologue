@@ -1,0 +1,18 @@
+<!-- index.wxml -->
+<view class="container">
+  <swiper indicator-dots="{{false}}" autoplay="{{false}}">
+    <block wx:for="{{records}}" wx:for-item="record" wx:key="key">
+      <swiper-item>
+        <view class="card">
+          <view class='cover'>
+            <image src='{{record.coverUrl.tempFileURL}}'></image>
+          </view>
+          <view class='name'>{{record.name}}</view>
+          <view class='author'>{{record.author}}</view>
+          <view class='text'>{{record.text}}</view>
+        </view>
+      </swiper-item>
+    </block>
+  </swiper>
+
+</view>
